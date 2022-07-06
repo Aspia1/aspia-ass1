@@ -33,11 +33,58 @@ body {
     margin-bottom: 40px;
 }
 
-#headSec a {
+.link {
     margin-top: 40px;
     text-decoration: none;
     color: aliceblue;
     background-color: tomato;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+#midsec {
+    text-align: center;
+}
+
+#second-div1 {
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+#second-div1 p {
+    color: gray;
+
+}
+
+#form-section {
+
+    margin: 0px 30px;
+}
+
+.hidbox {
+    display: none;
+}
+
+
+input[type="radio"]:checked+label {
+    border: 2px solid orangered;
+    background-color: rgba(217, 104, 104, 0.333);
+    color: rgb(230, 84, 46);
+
+}
+
+#txttaka {
+    margin-top: 90px;
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.358);
+    text-align: center;
+    resize: none;
+}
+
+.taka {
+
+    background-color: rgba(206, 199, 199, 0.313);
+    padding: 30px 20px;
+    margin: 50px 10px;
+    font-weight: 600;
 }
