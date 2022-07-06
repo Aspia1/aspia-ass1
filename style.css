@@ -84,7 +84,64 @@ input[type="radio"]:checked+label {
 .taka {
 
     background-color: rgba(206, 199, 199, 0.313);
-    padding: 30px 20px;
-    margin: 50px 10px;
+    padding: 40px 30px;
+    margin: 20px 15px;
     font-weight: 600;
+}
+
+#midsec2 {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+#midsec2 p {
+    color: rgb(95, 95, 95);
+}
+
+#third-flex {
+    display: flex;
+
+}
+
+.flexItem {
+    width: 30%;
+
+    margin: 2%;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+
+
+.flexItem h3 {
+    text-align: left;
+    font-size: 20px;
+
+
+}
+
+.flexItem p {
+    text-align: left;
+}
+
+.flexItem img {
+    width: 25%;
+
+    padding-right: 85%;
+    padding-top: 15px;
+
+
+}
+
+#plan1st {
+    background-color: #0088ff38;
+}
+
+#plan2nd {
+    background-color: #ffc0cb55;
+}
+
+#plan3rd {
+    background-color: #e3cc2366;
 }
